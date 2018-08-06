@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: example
+      contact-points: 127.0.0.1
+      port: 9042
